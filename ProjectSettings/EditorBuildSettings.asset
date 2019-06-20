@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_UVRP2/Ch3-BuildAndRun/Diorama-XR.unity
+    guid: ac36f156624de5741bd520a3869e6267
   m_configObjects: {}
