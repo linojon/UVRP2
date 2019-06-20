@@ -48,6 +48,8 @@ public class XRButtonController : MonoBehaviour
 
     public bool IsAvailable { get; private set; }
     public bool IsPressed { get; private set; }
+    public bool ButtonDown { get; private set; }
+    public bool ButtonUp { get; private set; }
 
 
     private InputDevice _device;
@@ -65,6 +67,9 @@ public class XRButtonController : MonoBehaviour
     // poll device for changes
     private void Update()
     {
+        ButtonDown = false;
+        ButtonUp = false;
+
         if (!_device.isValid || _inputFeature.name == null)
             return;
 
@@ -75,11 +80,13 @@ public class XRButtonController : MonoBehaviour
             if (IsPressed && !_wasPressed)
             {
                 Debug.Log(gameObject.name + " " + _buttonUsageType + " Pressed");
+                ButtonDown = true;
                 OnPress.Invoke();
             }
             else if (!IsPressed && _wasPressed)
             {
                 Debug.Log(gameObject.name + " " + _buttonUsageType + " Released");
+                ButtonUp = true;
                 OnRelease.Invoke();
             }
 

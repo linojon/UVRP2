@@ -267,7 +267,6 @@ GameObject:
   m_Component:
   - component: {fileID: 885095873540838672}
   - component: {fileID: 741860060507134574}
-  - component: {fileID: 3986644058963437126}
   m_Layer: 0
   m_Name: MeMyselfEye-XR
   m_TagString: Untagged
@@ -305,30 +304,6 @@ MonoBehaviour:
   m_TrackingSpace: 0
   m_StationaryCameraYOffset: 1.36144
   m_CameraFloorOffsetObject: {fileID: 3234737283499581618}
---- !u!114 &3986644058963437126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2533541849328336779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51d4921da022eb945a0bcf3f368cdb2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftTrigger: {fileID: 5785137200854156075}
-  rightTrigger: {fileID: 2674965481117727151}
-  OnTriggerPressed:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnTriggerReleased:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &3234737283499581618
 GameObject:
   m_ObjectHideFlags: 0
