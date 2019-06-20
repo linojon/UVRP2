@@ -101,7 +101,6 @@ GameObject:
   m_Component:
   - component: {fileID: 408132745}
   - component: {fileID: 408132746}
-  - component: {fileID: 5785137200854156075}
   m_Layer: 0
   m_Name: Left Hand
   m_TagString: Untagged
@@ -142,30 +141,6 @@ MonoBehaviour:
   m_TrackingType: 0
   m_UpdateType: 0
   m_UseRelativeTransform: 0
---- !u!114 &5785137200854156075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 408132744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d631d88a4a7b094182ba3ad48dfbb4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _XRNode: 4
-  _buttonUsageType: 0
-  OnPress:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnRelease:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1934946719124009389
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +322,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1858085876022440267}
   - component: {fileID: 2621338552696074284}
-  - component: {fileID: 2674965481117727151}
   m_Layer: 0
   m_Name: Right Hand
   m_TagString: Untagged
@@ -388,30 +362,6 @@ MonoBehaviour:
   m_TrackingType: 0
   m_UpdateType: 0
   m_UseRelativeTransform: 0
---- !u!114 &2674965481117727151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3858874471841264834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d631d88a4a7b094182ba3ad48dfbb4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _XRNode: 5
-  _buttonUsageType: 0
-  OnPress:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnRelease:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &3865318575155598981
 GameObject:
   m_ObjectHideFlags: 0

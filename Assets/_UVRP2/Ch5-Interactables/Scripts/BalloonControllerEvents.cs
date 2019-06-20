@@ -20,7 +20,11 @@ public class BalloonControllerEvents : MonoBehaviour
 
     public void NewBalloon()
     {
-        balloon = Instantiate(balloonPrefab);
+        // only make one at a time
+        if (balloon == null)
+        {
+            balloon = Instantiate(balloonPrefab);
+        }
     }
 
     public void ReleaseBalloon()

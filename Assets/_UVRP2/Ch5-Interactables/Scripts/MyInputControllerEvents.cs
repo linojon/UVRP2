@@ -5,8 +5,8 @@ using UnityEngine.Events;
 
 public class MyInputControllerEvents : MonoBehaviour
 {
-    public XRButtonController rightTrigger;
-    public XRButtonController leftTrigger;
+    public string rightTrigger = "XRI_Right_TriggerButton";
+    public string leftTrigger = "XRI_Left_TriggerButton";
 
     public UnityEvent ButtonDownEvent;
     public UnityEvent ButtonUpEvent;
@@ -21,11 +21,11 @@ public class MyInputControllerEvents : MonoBehaviour
 
     public bool ButtonDown()
     {
-        return rightTrigger.ButtonDown || leftTrigger.ButtonDown;
+        return Input.GetButtonDown(rightTrigger) || Input.GetButtonDown(leftTrigger);
     }
 
     public bool ButtonUp()
     {
-        return rightTrigger.ButtonUp || leftTrigger.ButtonUp;
+        return Input.GetButtonUp(rightTrigger) || Input.GetButtonUp(leftTrigger);
     }
 }

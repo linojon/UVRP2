@@ -11,21 +11,21 @@ public class BalloonControllerPolling : MonoBehaviour
     public float floatStrength = 20f;
     public float growRate = 1.5f;
 
-    private MyInputController inputController;
+    private MyInputControllerPolling _inputControllerPolling;
     private GameObject balloon;
 
     void Start()
     {
-        inputController = meMyselfEye.GetComponent<MyInputController>();
+        _inputControllerPolling = meMyselfEye.GetComponent<MyInputControllerPolling>();
     }
 
     void Update()
     {
-        if (inputController.ButtonDown())
+        if (_inputControllerPolling.ButtonDown())
         {
             NewBalloon();
         }
-        else if (inputController.ButtonUp())
+        else if (_inputControllerPolling.ButtonUp())
         {
             ReleaseBalloon();
         }
@@ -37,7 +37,11 @@ public class BalloonControllerPolling : MonoBehaviour
 
     public void NewBalloon()
     {
-        balloon = Instantiate(balloonPrefab);
+        // only make one at a time
+        if (balloon == null)
+        {
+            balloon = Instantiate(balloonPrefab);
+        }
     }
 
     public void ReleaseBalloon()

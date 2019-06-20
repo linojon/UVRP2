@@ -28,15 +28,15 @@ public class BalloonControllerInHand : MonoBehaviour
         }
     }
 
-    public void ReleaseBalloon()
+    public void ReleaseBalloon(GameObject parentHand)
     {
         if (balloon != null)
         {
             balloon.transform.parent = null;
             balloon.GetComponent<Rigidbody>().AddForce(Vector3.up *
                                                        floatStrength);
+            balloon = null;
         }
-        balloon = null;
     }
 
     private void GrowBalloon()
