@@ -29,7 +29,10 @@ public class BalloonControllerEvents : MonoBehaviour
 
     public void ReleaseBalloon()
     {
-        balloon.GetComponent<Rigidbody>().AddForce(Vector3.up * floatStrength);
+        if (balloon != null)
+        {
+            balloon.GetComponent<Rigidbody>().AddForce(Vector3.up * floatStrength);
+        }
         balloon = null;
     }
 
