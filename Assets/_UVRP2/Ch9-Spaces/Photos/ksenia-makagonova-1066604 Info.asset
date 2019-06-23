@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d20900ec6f0142b4da3b496020bb60e6, type: 3}
+  m_Name: ksenia-makagonova-1066604 Info
+  m_EditorClassIdentifier: 
+  image: {fileID: 2800000, guid: b77e5c174bb78d643bd86d96cae97670, type: 3}
+  title: Flowers 6
+  artist: Ksenia Makagonova
+  description: 'Source: unsplash.com'

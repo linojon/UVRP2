@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3425564886753172657}
   - component: {fileID: 8805052697283655733}
   m_Layer: 11
-  m_Name: TeleportSpawn
+  m_Name: GalleryTeleportSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,7 +150,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b4f06f11a0ec95448cec400e14b8bb8, type: 2}
+  - {fileID: 2100000, guid: d66ed9c018c7d0446bfaff67ac7c6f5a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
