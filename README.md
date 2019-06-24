@@ -23,18 +23,18 @@ These are the source files provided by the publisher with the book, includes ass
 
 ## Scenes included with this project - in Assets/UVRP2/ folder ##
 
-*Ch2-Diorama*
+**Ch2-Diorama**
 * 2-1-Diorama
 
-*Ch3-BuildAndRun*
+**Ch3-BuildAndRun**
 * 3-1-Diorama-XR
 
-*Ch4-Gaze*
+**Ch4-Gaze**
 * 4-1-RandomWalker
 * 4-2-LookMoveWalker
 * 4-3-LookToKill
 
-*Ch5-Interactables*
+**Ch5-Interactables**
 * 5-1-InputTest
 * 5-2-BalloonsPolling
 * 5-3-BalloonsEvents
@@ -42,20 +42,20 @@ These are the source files provided by the publisher with the book, includes ass
 * 5-5-BalloonGrenades
 * 5-6-GrabAndThrow
 
-*Ch6-UI*
+**Ch6-UI**
 * 6-1-CanvasUI
 * 6-2-DashboardUI
 * 6-3-InteractableUI
 * 6-4-WristPalette
 
-*Ch7-Locomotion*
+**Ch7-Locomotion**
 * 7-1-GlideLocomotion
 * 7-2-GlideLocomotionComfort
 * 7-3-Teleport
 * 7-4-SpawnPoints
 * 7-5-TeleportNavmesh
 
-*Ch8-Physics*
+**Ch8-Physics**
 * 8-1-BallsFromHeaven
 * 8-2-BallsPool
 * 8-3-HeadBallGame
@@ -64,25 +64,25 @@ These are the source files provided by the publisher with the book, includes ass
 * 8-6-FireBallGame
 * 8-7-FireBeatGame
 
-*Ch9-Spaces*
+**Ch9-Spaces**
 * 9-1-Gallery
 * 9-2-GalleryRidethrough
 
-*Ch10-360Media*
+**Ch10-360Media**
 * 10-1-Globes
 * 10-2-Photophere
 * 10-3-VideoSphere
 * 10-4-skybox
 * 10-5-VideSkybox
 
-*Ch11-Timeline*
+**Ch11-Timeline**
 * 11-1-BlackbirdStory
 
-*Ch12-Multiplayer*
+**Ch12-Multiplayer**
 * N/A
 * Note, the UNet Unity Networking components used in this chapter have been deprecated in Unity 2018.x and removed in Unity 2019+
 
-*Ch13-Performance*
+**Ch13-Performance**
 * 13-1-Optimization
 * 13-2-StaticBorg
 * 13-3-BorgCulling
