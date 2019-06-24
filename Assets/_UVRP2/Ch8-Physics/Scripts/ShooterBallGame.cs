@@ -31,7 +31,7 @@ public class ShooterBallGame : MonoBehaviour
         if (pool == null)
         {
             Debug.LogError("BallGame requires ObjectPooler component");
-        }
+        };
     }
 
     void Update()
@@ -65,5 +65,7 @@ public class ShooterBallGame : MonoBehaviour
         activeBall.GetComponent<Rigidbody>().velocity = shooter.forward * speed;
         activeBall.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         activeBall.SetActive(true);
+
+        ScoreKeeper.OnServe.Invoke();
     }
 }

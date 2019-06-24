@@ -47,6 +47,8 @@ public class FireBeatGame : MonoBehaviour
         activeBall.GetComponent<Rigidbody>().velocity = shooter.forward * speed;
         activeBall.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         activeBall.SetActive(true);
+
+        ScoreKeeper.OnServe.Invoke();
     }
 
     void onBeatDetected()

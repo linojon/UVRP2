@@ -1,16 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class DestroyBallPooled : MonoBehaviour
 {
     public float timer = 15f;
-
-    void Update()
-    {
-        if (transform.position.y < -5f)
-            DisableMe();
-    }
 
     private void DisableMe()
     {

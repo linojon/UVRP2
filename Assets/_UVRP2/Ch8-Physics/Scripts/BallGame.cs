@@ -42,6 +42,8 @@ public class BallGame : MonoBehaviour
             activeBall.transform.rotation = Quaternion.identity;
             activeBall.GetComponent<Rigidbody>().velocity = Vector3.zero;
             activeBall.SetActive(true);
+            
+            ScoreKeeper.OnServe.Invoke();
         }
     }
 }
